@@ -1,0 +1,126 @@
+body{
+background-image:url("imagenes/Fondo1.jpg");
+background-repeat: repeat-y;
+background-size: cover;
+font-family: sans-serif;
+}
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+header{
+display: flex;
+min-height: 70px;
+background: -webkit-linear-gradient(90deg, #25245d,#1d557a,#159097,#38a48c,#571c56);
+/* Chrome 10-25, Safari 5.1-6 */                          
+background: linear-gradient(90deg, #25245d,#1d557a,#159097,#38a48c,#571c56);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+border: 10px double #b200c8;
+font-family: sans;
+font-size: 20px;
+}
+
+.logo{
+display: flex;
+align-items: center;
+font-size: 20px;
+font-family: cursive;
+}
+
+.logo img{
+height: 70px;
+margin-right: 10px;
+}
+
+nav a{
+font-weight: 600;
+padding-right: 5px;
+margin:15px;
+font-family: cursive;
+font-size: 25px;
+}
+
+nav a:hover{
+color: pink;
+}
+
+nav{
+padding: 10px 0px;
+}
+
+section{
+display: flex;
+gap: 5px;
+justify-content: space-around;
+}
+
+.titulo{
+font-family: cursive;
+text-align: center;
+font-size: 80px;
+color: #ff95fc;
+text-shadow: 3px 3px 5px #000000;
+}
+
+.logog{
+display: grind;
+text-align: center;
+}
+
+.logog img{
+border: 10px double #ff40d2;
+border-radius: 100% 100% 100% 100%;
+} 
+
+.RS{
+display: grind;
+text-align: center;
+}
+
+.RS img{
+margin: 30px;
+transition: transform 0.4s ease 0s, opacity 0.3s ease 0s;
+}
+
+.RS img:hover{
+transform: scale(1.2);
+}
+
+.DR{
+color:white;
+text-align: center;
+font-size: 15px;
+opacity: 0.8;
+margin: 0px;
+}
+
+.Insta{
+background-color: #b5b5b5ab;
+}
+
+.Insto{
+font-family: sans;
+font-size: 10px;
+text-decoration: underline;
+text-align: center;
+opacity: 0.8;
+}
+
+p{
+text-align: center;
+}
+
+Insta:hover{
+cursor: pointer;
+}
